@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    /* background */
+    background-image: url(curious.png);
+    background-size: 10%; 
+    
+}
+
+main {
+    background-color: rgb(132, 190, 152); /* not working */
+    /* background-color: rgb(186, 140, 59);   working */
+    border: 3px solid black;
+}
+
+body {
+    background-color: antiquewhite;
+    width: 60%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    display: block;
+    max-width: 25%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+h1, p {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+p {
+    font-size: 250%;
+}
