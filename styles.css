@@ -6,15 +6,15 @@ html, body {
 html {
     background-color: antiquewhite;
     font-family: 'Poppins', sans-serif;
-    /* background */
+    /* background 
     background-image: url(curious.png);
-    background-size: 10%; 
+    background-size: 10%; */
     
 }
 
 main {
     background-color: rgb(132, 190, 152); /* not working */
-    /* background-color: rgb(186, 140, 59);   working */
+    background-color: rgb(186, 140, 59);  /* working */
     border: 3px solid black;
 }
 
